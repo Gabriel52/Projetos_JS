@@ -1,0 +1,32 @@
+
+body{
+    background:#E0FFFF;
+}
+fieldset{
+    background: white;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+fieldset legend{
+    font-family: 'Krona One';
+    font-size: 2rem;
+    text-align: center;
+}
+
+#inputName{
+    background: lightgray;
+    border-radius: 8%;
+    transition: 400ms;
+}
+#inputName:hover{
+    background: white;
+}
+.subtitle{
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+fieldset form{
+    text-align: center;
+    margin-top:1% ;
+}

@@ -1,0 +1,32 @@
+body{
+    background-color:#87CEEB;
+    font: normal 15pt Arial;
+
+}
+header, p{
+    color: white;
+    text-align:center;
+    
+}
+section{
+    padding-top: 40%;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    text-align:center;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px gray;
+}
+#inputCurrentFrequency{
+    width: 70px;
+    border-radius:10px;
+    margin:10px ;
+    transition: 2s;
+}
+img{
+    width: 200px;
+    left: 200px;
+    border-radius:50% ;    
+}

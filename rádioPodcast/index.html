@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rádio Podcast</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <div class="selectPodcast">
+            <header>
+                <h1>Rádio Podcasts</h1>
+            </header>
+                <div class="content">
+                    <section>
+                        <input type= 'text' id ='inputCurrentFrequency' value ='85.7' readonly disable>
+                        <input type="range" id="rangeFrequency" min = 87.5 max="108" step="0.1" value ='87.5'>  
+                        
+                        <div id="divPodcasts">
+                            <p>Nenhum Podcast localizado nesta frequencia.</p>
+                        </div>
+                    </section>
+                    <p>&copy;Rádio Podcast</p> 
+                </div>
+                   
+        </div>
+    <script src="js/podcasts.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
