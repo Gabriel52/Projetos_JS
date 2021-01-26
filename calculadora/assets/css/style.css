@@ -1,0 +1,89 @@
+:root{
+    --primary-color: #87CEEB;
+    --primary-color-darker: rgb(9, 48, 56);
+
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-size: 1.3em;
+    line-height: 1.5rem;
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);   
+}
+
+form button {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background-color: var(--primary-color-darker);
+}
+.calculadora{
+    width: 400px;
+}
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background-color: #dfdfdf;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #949090;
+}
+
+.btn-eq{
+    background-color: rgb(109, 214, 132);
+}
+.btn-eq:hover{
+    background-color: rgb(11, 134, 38);
+
+}
